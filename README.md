@@ -9,7 +9,46 @@
 > Stats auto-updated by [aidevops](https://aidevops.sh).
 
 <!-- STATS-START -->
-<!-- Stats will be populated on first update -->
+## Work with AI
+
+| Metric | 24h | 7 Days | 28 Days | 365 Days |
+| --- | ---: | ---: | ---: | ---: |
+| Screen time (Linux) | h | h | h | ~h* |
+| User AI session hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| AI worker hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| AI concurrency hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| Interactive sessions | 0 | 0 | 2 | 2 |
+| Worker sessions | 0 | 0 | 0 | 0 |
+
+_Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
+
+_User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
+
+## AI Model Usage (last 30 days)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Total** | **0** | **0** | **0** | **0** | **$0,00** | **$0,00** | **$0,00** |
+
+_106.4M total tokens processed. 92.3% cache hit rate._
+
+_$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
+
+_Model savings are modest because ~92.3% of tokens are cache reads, where price differences between models are small._
+
+## AI Model Usage (all time)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| gpt-5.3-codex | 1,898 | 9.6M | 1.0M | 134.8M | $118,00 | $252,00 | $303,00 |
+| gpt-5.4 | 76 | 334K | 37K | 1.8M | $2,00 | $3,00 | $8,00 |
+| **Total** | **1,974** | **9.9M** | **1.0M** | **136.7M** | **$120,00** | **$256,00** | **$312,00** |
+
+_154.0M total tokens processed. 92.6% cache hit rate._
+
+_$568,00 total saved ($256,00 caching + $312,00 model routing vs all-Opus)._
+
+_Model savings are modest because ~92.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -36,4 +75,5 @@
 ---
 
 <!-- UPDATED-START -->
+_Stats auto-updated 2026-03-16 20:29 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
