@@ -42,12 +42,12 @@ _Model savings are modest because ~91.6% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| qwen3.5-9B | 5 | 62K | 328 | 0 | $0,00 | $0,00 | $0,00 |
-| **Total** | **5** | **62K** | **328** | **0** | **$0,00** | **$0,00** | **$0,00** |
+| qwen3.5-9B | 12 | 174K | 4K | 0 | $0,00 | $0,00 | $2,00 |
+| **Total** | **12** | **174K** | **4K** | **0** | **$0,00** | **$0,00** | **$2,00** |
 
-_62K total tokens processed. 0% cache hit rate._
+_179K total tokens processed. 0% cache hit rate._
 
-_$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
+_$2,00 total saved ($0,00 caching + $2,00 model routing vs all-Opus)._
 
 _Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -76,5 +76,5 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-21 18:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-21 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
