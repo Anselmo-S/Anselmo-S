@@ -11,7 +11,31 @@
 <!-- STATS-START -->
 ## Work with AI
 
-_Stats will appear here automatically once [aidevops](https://aidevops.sh) has been running locally. Includes AI session hours, model usage, token costs, and screen time._
+| Metric | 24h | 7 Days | 28 Days | 365 Days |
+| --- | ---: | ---: | ---: | ---: |
+| Screen time (Linux) | h | h | h | ~h* |
+| User AI session hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| AI worker hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| AI concurrency hours | 0,0h | 0,0h | 0,0h | 0,0h |
+| Interactive sessions | 0 | 0 | 0 | 0 |
+| Worker sessions | 0 | 0 | 0 | 0 |
+
+_Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
+
+_User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
+
+## AI Model Usage (last 30 days)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| big-pickle | 8 | 4K | 2K | 127K | $0,00 | $0,00 | $0,00 |
+| **Total** | **8** | **4K** | **2K** | **127K** | **$0,00** | **$0,00** | **$0,00** |
+
+_161K total tokens processed. 78.7% cache hit rate._
+
+_$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
+
+_Model savings are modest because ~78.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -38,5 +62,5 @@ _Stats will appear here automatically once [aidevops](https://aidevops.sh) has b
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-02 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-02 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
