@@ -28,14 +28,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 8 | 4K | 2K | 127K | $0,00 | $0,00 | $0,00 |
-| **Total** | **8** | **4K** | **2K** | **127K** | **$0,00** | **$0,00** | **$0,00** |
+| big-pickle | 15 | 5K | 7K | 229K | $0,00 | $0,00 | $1,00 |
+| **Total** | **15** | **5K** | **7K** | **229K** | **$0,00** | **$0,00** | **$1,00** |
 
-_161K total tokens processed. 78.7% cache hit rate._
+_294K total tokens processed. 77.9% cache hit rate._
 
-_$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
+_$1,00 total saved ($0,00 caching + $1,00 model routing vs all-Opus)._
 
-_Model savings are modest because ~78.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~77.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -62,5 +62,5 @@ _Model savings are modest because ~78.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-02 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-03 22:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
