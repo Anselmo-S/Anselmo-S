@@ -28,14 +28,28 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 122 | 68K | 71K | 4.0M | $4,00 | $0,00 | $12,00 |
-| **Total** | **122** | **68K** | **71K** | **4.0M** | **$4,00** | **$0,00** | **$12,00** |
+| big-pickle | 173 | 148K | 96K | 6.4M | $6,00 | $0,00 | $19,00 |
+| qwen3.6-plus-free | 14 | 295K | 2K | 0 | $0,00 | $0,00 | $3,00 |
+| **Total** | **187** | **444K** | **98K** | **6.4M** | **$7,00** | **$0,00** | **$22,00** |
 
-_4.8M total tokens processed. 84.5% cache hit rate._
+_7.7M total tokens processed. 82.3% cache hit rate._
 
-_$12,00 total saved ($0,00 caching + $12,00 model routing vs all-Opus)._
+_$22,00 total saved ($0,00 caching + $22,00 model routing vs all-Opus)._
 
-_Model savings are modest because ~84.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~82.3% of tokens are cache reads, where price differences between models are small._
+
+## AI Model Usage (all time)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| qwen3.6-plus-free | 4 | 71K | 596 | 0 | $0,00 | $0,00 | $0,00 |
+| **Total** | **4** | **71K** | **596** | **0** | **$0,00** | **$0,00** | **$0,00** |
+
+_3.9M total tokens processed. 84.6% cache hit rate._
+
+_$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
+
+_Model savings are modest because ~84.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -62,5 +76,5 @@ _Model savings are modest because ~84.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-04 12:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-05 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
