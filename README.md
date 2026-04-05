@@ -28,15 +28,15 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 173 | 148K | 96K | 6.4M | $6,00 | $0,00 | $19,00 |
+| big-pickle | 236 | 192K | 104K | 7.2M | $8,00 | $0,00 | $21,00 |
 | qwen3.6-plus-free | 14 | 295K | 2K | 0 | $0,00 | $0,00 | $3,00 |
-| **Total** | **187** | **444K** | **98K** | **6.4M** | **$7,00** | **$0,00** | **$22,00** |
+| **Total** | **250** | **488K** | **106K** | **7.2M** | **$9,00** | **$0,00** | **$25,00** |
 
-_7.7M total tokens processed. 82.3% cache hit rate._
+_8.9M total tokens processed. 81.2% cache hit rate._
 
-_$22,00 total saved ($0,00 caching + $22,00 model routing vs all-Opus)._
+_$25,00 total saved ($0,00 caching + $25,00 model routing vs all-Opus)._
 
-_Model savings are modest because ~82.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~81.2% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -45,11 +45,11 @@ _Model savings are modest because ~82.3% of tokens are cache reads, where price 
 | qwen3.6-plus-free | 4 | 71K | 596 | 0 | $0,00 | $0,00 | $0,00 |
 | **Total** | **4** | **71K** | **596** | **0** | **$0,00** | **$0,00** | **$0,00** |
 
-_3.9M total tokens processed. 84.6% cache hit rate._
+_4.2M total tokens processed. 83.1% cache hit rate._
 
 _$0,00 total saved ($0,00 caching + $0,00 model routing vs all-Opus)._
 
-_Model savings are modest because ~84.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~83.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -76,5 +76,5 @@ _Model savings are modest because ~84.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-05 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-05 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
